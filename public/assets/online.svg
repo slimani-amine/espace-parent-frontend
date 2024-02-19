@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="61.958" height="50.088" viewBox="0 0 61.958 50.088">
+  <g id="credit-card" transform="translate(0 -49.045)">
+    <path id="Tracé_7727" data-name="Tracé 7727" d="M77.357,85.1l3.632-23.192a4.318,4.318,0,0,0-3.577-4.947h0L28.4,49.1a4.316,4.316,0,0,0-4.945,3.577L21.714,63.523V84.97Z" transform="translate(-19.086 0)" fill="#146aa8"/>
+    <path id="Tracé_7728" data-name="Tracé 7728" d="M118.993,98.283l-13.92-2.234c-9.349,14.305-24.463,24.214-36.053,30.251l49.919.121,3.632-23.192a4.317,4.317,0,0,0-3.577-4.947Z" transform="translate(-60.667 -41.316)" fill="#126099"/>
+    <path id="Tracé_7729" data-name="Tracé 7729" d="M4.316,159.771H53.954a4.317,4.317,0,0,1,4.316,4.316v28.056a4.317,4.317,0,0,1-4.316,4.316H4.316A4.317,4.317,0,0,1,0,192.144V164.087A4.317,4.317,0,0,1,4.316,159.771Z" transform="translate(0 -97.327)" fill="#4398d1"/>
+    <path id="Tracé_7730" data-name="Tracé 7730" d="M142.94,159.771h-.863c-10.187,18.084-29.22,30.49-40.84,36.689h41.7a4.317,4.317,0,0,0,4.316-4.316V164.087A4.317,4.317,0,0,0,142.94,159.771Z" transform="translate(-88.986 -97.327)" fill="#3e8cc7"/>
+    <rect id="Rectangle_3077" data-name="Rectangle 3077" width="10.791" height="8.633" transform="translate(5.395 67.84)" fill="#fdb62f"/>
+    <g id="Groupe_7381" data-name="Groupe 7381" transform="translate(5.395 71.077)">
+      <rect id="Rectangle_3078" data-name="Rectangle 3078" width="3.237" height="2.158" fill="#fd7b2f"/>
+      <rect id="Rectangle_3079" data-name="Rectangle 3079" width="3.237" height="2.158" transform="translate(7.554)" fill="#fd7b2f"/>
+    </g>
+    <circle id="Ellipse_225" data-name="Ellipse 225" cx="5.395" cy="5.395" r="5.395" transform="translate(42.084 82.947)" fill="#fdb62f"/>
+    <circle id="Ellipse_226" data-name="Ellipse 226" cx="5.395" cy="5.395" r="5.395" transform="translate(35.61 82.947)" fill="#de4c3c"/>
+    <g id="Groupe_7382" data-name="Groupe 7382" transform="translate(4.316 67.84)">
+      <rect id="Rectangle_3080" data-name="Rectangle 3080" width="6.474" height="2.158" transform="translate(0 16.186)" fill="#87ced9"/>
+      <rect id="Rectangle_3081" data-name="Rectangle 3081" width="6.474" height="2.158" transform="translate(10.791 16.186)" fill="#87ced9"/>
+      <rect id="Rectangle_3082" data-name="Rectangle 3082" width="6.474" height="2.158" transform="translate(21.582 16.186)" fill="#87ced9"/>
+      <rect id="Rectangle_3083" data-name="Rectangle 3083" width="28.056" height="2.158" transform="translate(0 22.661)" fill="#87ced9"/>
+      <rect id="Rectangle_3084" data-name="Rectangle 3084" width="2.158" height="4.316" transform="translate(33.452 0)" fill="#87ced9"/>
+      <rect id="Rectangle_3085" data-name="Rectangle 3085" width="2.158" height="4.316" transform="translate(37.768 0)" fill="#87ced9"/>
+      <rect id="Rectangle_3086" data-name="Rectangle 3086" width="2.158" height="4.316" transform="translate(42.084 0)" fill="#87ced9"/>
+      <rect id="Rectangle_3087" data-name="Rectangle 3087" width="2.158" height="4.316" transform="translate(46.401 0)" fill="#87ced9"/>
+    </g>
+  </g>
+</svg>
