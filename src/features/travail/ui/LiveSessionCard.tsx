@@ -11,7 +11,7 @@ export default function EmploiDuTemps({ data }: { data: any }) {
     setIsModalOpen(!isModalOpen);
   };
 
-  const joursDeLaSemaine = [
+  const days = [
     "Lundi",
     "Mardi",
     "Mercredi",
@@ -21,7 +21,7 @@ export default function EmploiDuTemps({ data }: { data: any }) {
     "Dimanche",
   ];
 
-  const plagesHoraires = Array.from({ length: 17 }, (_, i) => `${i + 8}:00`);
+  const hours = Array.from({ length: 17 }, (_, i) => `${i + 8}:00`);
 
   const renderHourlyDivs = () => {
     const hourlyDivs = [];
@@ -65,7 +65,7 @@ export default function EmploiDuTemps({ data }: { data: any }) {
   const renderEnTeteDuTableau = () => {
     return (
       <tr>
-        {joursDeLaSemaine.map((jour, index) => {
+        {days.map((jour, index) => {
           const currentDate = new Date(startDate);
           currentDate.setDate(startDate.getDate() + index);
 
@@ -113,10 +113,10 @@ export default function EmploiDuTemps({ data }: { data: any }) {
   const renderLignesDuTableau = () => {
     const lignesDuTableau = [];
 
-    for (const plageHoraire of plagesHoraires) {
+    for (const plageHoraire of hours) {
       const ligne = (
         <tr key={plageHoraire}>
-          {joursDeLaSemaine.map((jour, index) => {
+          {days.map((jour, index) => {
             const currentDate = new Date(startDate);
             currentDate.setDate(startDate.getDate() + index);
 

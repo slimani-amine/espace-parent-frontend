@@ -17,7 +17,6 @@ export default function Examens({ childId }: { childId: string }) {
   }, [dispatch, childId]);
 
   const oneChildren = useSelector((state: any) => state?.oneChildren);
-  console.log("🚀 ~ Dashboard ~ oneChildren:", oneChildren);
 
   const dummyData: ExamData[] = [
     {

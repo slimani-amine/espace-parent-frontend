@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Button, Form, Input, Modal, Tag } from "antd";
 import { useDispatch } from "react-redux";
 import { insertChildren } from "../reducers/childrensThunk";
-import { generateRandomNumber } from "../../../hooks/generateRandomNumber";
+import { generateRandomNumber } from "../../../utils & helpers/generateRandomNumber";
 
 type RequiredMark = boolean | "optional" | "customize";
 
@@ -43,7 +43,6 @@ const Inscription: React.FC<InscriptionProps> = ({
   }) => {
     setRequiredMarkType(requiredMarkValue);
   };
-
 
   const [confirmLoading, setConfirmLoading] = useState(false);
   const dispatch = useDispatch();

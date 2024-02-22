@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Modal, message } from "antd";
-import DownloawdSvg from "../dashboard/ui/DownloadSvg";
+import DownloawdSvg from "../../dashboard/ui/DownloadSvg";
 
 type EventModalProps = {
   isModalOpen: boolean;

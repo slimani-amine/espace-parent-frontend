@@ -12,7 +12,7 @@ interface ExamData {
 export default function ExamenDetails({ childId }: { childId: string }) {
   console.log("🚀 ~ ExamenDetails ~ childId:", childId);
   const examId = location.pathname.split("/")[4];
-  //get exam details by examID
+
   const dummyData: ExamData = {
     matiere: "Mathematics",
     id: examId,

@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getOneChildren } from "../features/dashboard/reducers/oneChildThunk";
 import NewChildCard from "../features/dashboard/ui/NewChildCard";
-import TravailCard from "../features/travail/TravailCard";
+import TravailCard from "../features/travail/ui/TravailCard";
 
 export default function Travail({ childId }: { childId: string }) {
   const dispatch = useDispatch();

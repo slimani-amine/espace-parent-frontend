@@ -18,9 +18,6 @@ export default function Direct({ childId }: { childId: string }) {
   }, [dispatch, childId]);
 
   const oneChildren = useSelector((state: any) => state?.oneChildren);
-  console.log("🚀 ~ Dashboard ~ oneChildren:", oneChildren);
-
-  // get directs by childId
 
   const dummyData: DataType[] = [];
   for (let i = 0; i < 100; i++) {

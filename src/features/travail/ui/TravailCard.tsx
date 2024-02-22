@@ -1,11 +1,11 @@
 import { Card, Empty } from "antd";
 import { Link, useLocation } from "react-router-dom";
 import LiveSessionCard from "./LiveSessionCard";
-import Loading from "../shared_components/Loading";
+import Loading from "../../shared_components/Loading";
 import { useDispatch, useSelector } from "react-redux";
-import { getOneClasse } from "../dashboard/reducers/classesThunk";
+import { getOneClasse } from "../../dashboard/reducers/classesThunk";
 import { useEffect } from "react";
-import { getOneChildren } from "../dashboard/reducers/oneChildThunk";
+import { getOneChildren } from "../../dashboard/reducers/oneChildThunk";
 interface HomeworkItem {
   id: number;
   attributes: {

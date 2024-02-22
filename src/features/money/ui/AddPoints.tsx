@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import { Button, Form, Input, Modal, message } from "antd";
 import { addOperation } from "../reducers/operationsThunk";
-import { useDispatch} from "react-redux";
+import { useDispatch } from "react-redux";
 import { getMe } from "../reducers/getMeThunk";
-import { generateRandomNumber } from "../../../hooks/generateRandomNumber";
+import { generateRandomNumber } from "../../../utils & helpers/generateRandomNumber";
 
 type AddPointsProps = {
   isModalOpen: boolean;
@@ -25,7 +25,6 @@ const AddPoints: React.FC<AddPointsProps> = ({
   useEffect(() => {
     dispatch(getMe() as any);
   }, [soldeOperation, dispatch]);
-
 
   const handleOk = async (values: any) => {
     const amount = parseInt(values.amount, 10);
